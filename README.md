@@ -8,3 +8,4 @@ This repository contains my CTF challenge writeups across multiple domains:
 - Reverse Engineering  
 - Web Exploitation  
 
+The goal is to document solutions, methodologies, and learning outcomes for quick reference and knowledge sharing.  
