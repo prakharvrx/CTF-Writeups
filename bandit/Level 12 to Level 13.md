@@ -1,0 +1,4 @@
+To solve the level, first move into your working directory using `cd /tmp/tmp.XrGbPm2V98`, then copy the data file with `cp ~/data.txt .` and rename it using `mv data.txt dump`. Convert the hexdump back into a binary file with `xxd -r dump > file`, then run `file file` to check its format. Depending on what it reports, rename and extract it: if it is gzip, use `mv file file.gz` followed by `gunzip file.gz`; if it is bzip2, use `mv file file.bz2` and `bunzip2 file.bz2`; and if it is a tar archive, use `mv file file.tar` and `tar xf file.tar`. After each extraction, run `file *` again and continue repeating the correct extraction commands until you eventually get a normal text file. Open that file with `cat` and you will find the password for the next level.
+
+password : `FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn`
+
